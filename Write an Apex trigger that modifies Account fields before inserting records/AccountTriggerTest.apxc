@@ -8,7 +8,7 @@ public class AccountTriggerTest {
         }
         
         Test.startTest();
-        	insert accts;
+        	insert acct;
         Test.stopTest();
             
         List<Account> lstAccount = [SELECT ShippingState FROM Account];
